@@ -219,9 +219,9 @@
   color: #fff;
   text-shadow: 4px 4px 6px #000000;
 }
-.top-hero img {
-  /* opacity: .2; */
-}
+/* .top-hero img {
+  opacity: .2;
+} */
 .top-hero p {
   color: #edf2f4;
   font-size: 32px;
@@ -265,12 +265,13 @@
   padding-bottom: 70px;
   background-color: #b3b3b3;
 }
-.mm{
-  /* margin-top: 5em; */
-  /* background-color: #347F7F!important; */
-}
+/* .mm{
+  margin-top: 5em;
+  background-color: #347F7F!important;
+} */
+
 .cta-section{
-  background-image: radial-gradient(circle,#3498db,#2c3e50);
+  background-image: radial-gradient(circle,#437545,#003300);
   padding-top: 35px!important;
   padding-bottom: 10px!important;
 }
@@ -631,9 +632,9 @@ padding:60px 0px;
 .footer .copyright p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-.footer .copyright {
-  /* background-color: #005400; */
-}
+/* .footer .copyright {
+  background-color: #005400;
+} */
 
 .copyright-p {
   color: #fff !important;
@@ -817,8 +818,8 @@ padding:60px 0px;
   padding-bottom: 10px;
 }
 
-.whitepaper-content {
-}
+/* .whitepaper-content {
+} */
 
 /* ====== End Whitepaper Page ====== */
 

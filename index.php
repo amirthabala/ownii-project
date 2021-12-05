@@ -1,5 +1,28 @@
 <?php include 'includes/header.php'; ?>
 
+<!-- style -->
+<style type="text/css">
+  .cta-section{
+    background-image: radial-gradient(circle,#30cf39,#0c7425);
+  }
+
+  .featured-icon-card:hover {
+    background: #003300;
+  }
+
+  .featured-icon-card:hover .featured-icon-container {
+    color: #005400;
+  }
+
+  .featured-icon-container {
+    background: #005400;
+  }
+
+  .example {
+    background-color: #258e25;
+  }
+
+</style>
 
 <!-- Start jumbotron -->
 <header id="home" class="top-hero p-b-3 m-b-3">
