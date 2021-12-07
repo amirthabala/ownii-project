@@ -22,6 +22,57 @@
     background-color: #258e25;
   }
 
+  .width{
+    width: 15%;
+  }
+
+  .container-class {
+    width:80%;
+    margin: auto;
+  }
+
+  .accordion-item {
+    border: none;
+    box-shadow: 5px 5px 18px #003300;
+    margin-bottom : 2%;
+  }
+
+  .accordion-button {
+    color: #005400;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .accordion-button:hover {
+    color: #005400;
+  }
+
+  .accordion-button:not(.collapsed)::after{
+    background-image: url("img/ownii1.png");
+  }
+
+  .accordion-button::after{
+    background-image: url("img/ownii1.png");
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #005400;
+    /* background-color: #aae473;  */
+    background-color: #45a945; 
+  }
+
+  .accordion-body {
+    text-align : left;
+  }
+
+  .accordion-a a {
+    color: #45a945
+  }
+
+  .accordion-a a:hover {
+    color: #005400
+  }
+
 </style>
 
 <!-- Start jumbotron -->
@@ -196,7 +247,131 @@
 <!-- End Counter -->
 
 <!-- Start FAQ Section -->
-
+<section id="faq-section" class="container px-5">
+  <h2 class="text-center">Frequently Asked Questions</h2>
+  <hr class="width mx-auto">
+  <div class="container-class">
+    <div class="wrapper accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqOne">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is an PPO?
+          </a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="faqOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            PPO is an abbreviation for Private Placement Offering. It is a special fund raising methods for companies. PPO are targeted specifically for potential interested parties that are keen to own a crypto-currency or digital currency on a private placement basis. In the process of an PPO, interested parties are placed with a number or percentage of the underlying offer of the Ethereum ERC-20 based tokens, and paid for in fiat currency or another crypto-currency such as Ether, Bitcoin, Litecoin, etc.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqTwo">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            What cryptocurrencies can I use to purchase?
+          </a>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faqTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            You can use the following cryptocurrencies to buy owniiTokens: Ethereum, Bitcoin and Litecoin.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqThree">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            How can I participate in the PPO Token sale?
+          </a>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faqThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Participation is possible by clicking on Buy Login/Join PreSale at the top of the page. You will need to register and complete the KYC to be able to invest.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqFour">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            How do I benefit from an PPO?
+          </a>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faqFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            The raised capital will help us to build the solutions, do marketing and pay for all costs. With our solutions and company getting more and more popular, the price of the tokens will (normally) increase, allowing you to gain profits.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqFive">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Is there a guaranty the OWNii Token will increase in value?
+          </a>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="faqFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Unfortunately we can't guarantee any profits, so there is always a risk of losing money. But there is also the chance of multiplying your investment.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqSix">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Where do I get a wallet to store my tokens?
+          </a>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="faqSix" data-bs-parent="#accordionExample">
+          <div class="accordion-body accordion-a">
+            You can get a free wallet at <a href="https://www.coinpayments.net/index.php?ref=4571db998cefc02c44ae9137a6d5ac36">Coinpayments_Wallet</a> or <a href="https://bit.ly/Changelly_Buy_Trade_Crypto">Changelly - Buy, Trade Crypto</a> for example. Here is an awesome tutorial that may help you, <a href="https://bit.ly/How_to_Buy_Crypto_or_OWNii">How to Register, Buy Crypto and OWNii Token</a>.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqSeven">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            Which countries can't participate in the PPO?
+          </a>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="faqSeven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            You can't participate, if you are living in one of the following countries: Hong Kong, People's Republic of China, Republic of Korea, Socialistic Republic of Vietnam, USA, including Puerto Rico, US-Virgin Islands or any other property of the US.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqEight">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            Is KYC required?
+          </a>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="faqEight" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Yes, <strong>KYC</strong> stands for Know your Customer, and describes part of the due diligence process that serves to <strong>precisely identify customers</strong>. This includes checking personal and business data in order to exclude negative hits, such as on sanction, watch or PEP lists, or to identify ownership structures and company links. International minimum standards for due diligence audits have been introduced with the aim of combating economic crime, money laundering and other criminal activities. The legal basis for the due diligence, which requires a know-your-customer analysis, is the 3. EU Money Laundering Directive. Non-compliance with the due diligence threatens to result in substantial fines, loss of reputation or even imprisonment and the withdrawal of the business permit.
+            <br />
+            <br />
+            In addition, the KYC information is also populated into a risk management and compliance checklist and measure for the Anti-Money Laundering (AML) and Counter-Terrorists Financing (CFT) requirements.
+            <br />
+            <br />
+            All information collected under the KYC as well as under the registry shall be held strictly in confidence and such data and information are held in compliance with Personal Data Protection guidelines.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqNine">
+          <a class="accordion-button collapsed fs-4" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            On which exchanges will your token be listed?
+          </a>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="faqNine" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            At this stage of the PPO, the OWNii Tokens are not listed on any of the crypto-currency exchanges. They are able to be transferred on Peer-To-Peer (P2P) basis on the current Platform. in return for fiat currency on a private settlement basis.
+            <br />
+            <br />
+            We shall make appropriate notifications of the availability of the listing of the OWNii Tokens on any of the crypto-currency exchange when these take place.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- End FAQ Section -->
 
 <!-- End Two Column Section -->

@@ -1,6 +1,6 @@
   
 <style>
-    .submenu {
+    .submenu, .submenustart {
         position: relative;
     }
 
@@ -12,8 +12,20 @@
         top: 0;
     }
 
+    .submenustart:hover > .submenu-item {
+        display: block;
+        position: absolute;
+        margin-right: 1%;
+        right: 100%;
+        top: 0;
+    }
+
     @media screen and (max-width:767px){
         .submenu:hover > .dropdown-menu {
+            position: static;
+        }
+
+        .submenustart:hover > .submenu-item {
             position: static;
         }
     }
@@ -38,7 +50,7 @@
                             <a href="#" class="dropdown-item">Team</a>
                             <a href="whitepaper.php" class="dropdown-item">Whitepaper</a>
                             <a href="roadmap.php" class="dropdown-item">Roadmap</a>
-                            <a href="#" class="dropdown-item">FAQ</a>
+                            <a href="index.php#faq-section" class="dropdown-item">FAQ</a>
                             <a href="#" class="dropdown-item">How It Works</a>
                             <!-- <div class="dropdown-divider"></div>
                             <a href="#" class="dropdown-item">Test</a> -->
@@ -85,22 +97,22 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu dropdown-menu-end">
-                            <div class="submenu dropend py-0">
+                            <div class="submenustart dropstart py-0">
                                 <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">
                                     OWNii Ecosystem suite
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu submenu-item">
                                     <a href="#" class="dropdown-item">Energy Audit</a>
                                     <a href="#" class="dropdown-item">Internet speed and connectivity</a>
                                     <a href="#" class="dropdown-item">Installation and testing</a>
                                     <a href="#" class="dropdown-item">Troubleshooting</a>
                                 </ul>
                             </div>
-                            <div class="submenu dropend py-0">
+                            <div class="submenustart dropstart py-0">
                                 <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">
                                     Blockchain services
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu submenu-item">
                                     <a href="#" class="dropdown-item">Payment solutions</a>
                                     <a href="#" class="dropdown-item">Transaction solutions</a>
                                 </ul>

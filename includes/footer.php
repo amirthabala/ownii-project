@@ -14,11 +14,11 @@
     <div class="col-lg-3 col-xs-12 links">
       <h4 class="mt-lg-0 mt-sm-3">Links</h4>
         <ul class="m-0 p-0">
-          <li>- <a href="#">About</a></li>
-          <li>- <a href="#">FAQ</a></li>
+          <li>- <a href="about.php">About</a></li>
+          <li>- <a href="index.php#faq-section">FAQ</a></li>
           <li>- <a href="#">How it Works</a></li>
           <li>- <a href="#">Videos</a></li>
-          <li>- <a href="#">White Papers</a></li>
+          <li>- <a href="whitepaper.php">White Papers</a></li>
           <li>- <a href="#">Privacy Policy</a></li>
         </ul>
     </div>
