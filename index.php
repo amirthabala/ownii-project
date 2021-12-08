@@ -243,11 +243,12 @@
       <p class="count-text ">SomeText GoesHere</p>
     </div>
   </div>
+  <section id="faq-section"></section>
 </div>
 <!-- End Counter -->
 
 <!-- Start FAQ Section -->
-<section id="faq-section" class="container px-5">
+<div class="container px-5">
   <h2 class="text-center">Frequently Asked Questions</h2>
   <hr class="width mx-auto">
   <div class="container-class">
@@ -371,7 +372,7 @@
       </div>
     </div>
   </div>
-</section>
+</div>
 <!-- End FAQ Section -->
 
 <!-- End Two Column Section -->
