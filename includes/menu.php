@@ -95,7 +95,11 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
                         <div class="dropdown-menu dropdown-menu-end">
                             <a href="about.php" class="dropdown-item">About</a>
-                            <a href="#" class="dropdown-item">Team</a>
+                            <a href="#" class="dropdown-item">Li-Fi</a>
+                            <a href="#" class="dropdown-item">WTE</a>
+                            <a href="#" class="dropdown-item">CGE</a>
+                            <a href="#" class="dropdown-item">Global Greenology</a>
+                            <a href="#" class="dropdown-item">Strategic Initiatives</a>
                             <a href="whitepaper.php" class="dropdown-item">Whitepaper</a>
                             <a href="roadmap.php" class="dropdown-item">Roadmap</a>
                             <a href="index.php#faq-section" class="dropdown-item">FAQ</a>
@@ -108,7 +112,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Team</a>
                         <div class="dropdown-menu dropdown-menu-end">
                             <a href="#" class="dropdown-item">OWNii Global</a>
-                            <a href="#" class="dropdown-item">OWNii Energy</a>
+                            <a href="owniienergy.php" class="dropdown-item">OWNii Energy</a>
                             <a href="#" class="dropdown-item">San Victus Energy</a>
                         </div>
                     </li>
@@ -119,7 +123,7 @@
                             <a href="#" class="dropdown-item">Token Sales</a>
                             <a href="#" class="dropdown-item">Ownii Wallet</a>
                             <div class="submenu dropend py-0">
-                                <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                <a class="dropdown-toggle dropdown-item" href="#" data-bs-toggle="dropdown">
                                     Ownii Token
                                 </a>
                                 <ul class="dropdown-menu">
@@ -146,7 +150,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu dropdown-menu-end">
                             <div class="submenustart dropstart py-0">
-                                <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                <a class="dropdown-toggle dropdown-item" href="#" data-bs-toggle="dropdown">
                                     OWNii Ecosystem suite
                                 </a>
                                 <ul class="dropdown-menu submenu-item">
@@ -157,7 +161,7 @@
                                 </ul>
                             </div>
                             <div class="submenustart dropstart py-0">
-                                <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                <a class="dropdown-toggle dropdown-item" href="#" data-bs-toggle="dropdown">
                                     Blockchain services
                                 </a>
                                 <ul class="dropdown-menu submenu-item">
@@ -171,7 +175,7 @@
                         <a href="#" class="nav-link">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Blog</a>
+                        <a href="blog.php" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a href="contactus.php" class="nav-link">Contact</a>
