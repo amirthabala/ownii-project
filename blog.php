@@ -215,7 +215,7 @@
 
                         <!-- For small Screens -->
                         <a href="blogpage.php?id='.$carousel[0]["id"].'" >
-                            <div class="card d-sm-block d-md-none img-class">
+                            <div class="card d-block d-md-none img-class">
                                 <img src="'.$carousel[0]["image"].'" class="card-img-top p-2" height="280px" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">'.$carousel[0]["title"].'</h5>
@@ -252,7 +252,7 @@
 
                             <!-- For small Screens -->
                             <a href="blogpage.php?id='.$carousel[$ind]["id"].'" >
-                                <div class="card d-sm-block d-md-none img-class">
+                                <div class="card d-block d-md-none img-class">
                                     <img src="'.$carousel[$ind]["image"].'" class="card-img-top p-2" height="280px" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">'.$carousel[$ind]["title"].'</h5>
