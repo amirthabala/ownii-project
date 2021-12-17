@@ -26,9 +26,9 @@
         align-items: center;
     }
 
-    .img-class img {
+    /* .img-class img {
         height: 300px;
-    }
+    } */
 
     .nav-link {
         color: #003300;
@@ -72,9 +72,9 @@
         padding-bottom: 7%;
     }
 
-    .card-image {
+    /* .card-image {
         height: 280px;
-    }
+    } */
 
     a {
         text-decoration: none;
@@ -86,12 +86,12 @@
     }
 
     @media screen and (max-width: 768px){
-        .card-image {
+        /* .card-image {
             height: 200px;
-        }
+        } */
 
         .img-class img {
-            height: 200px;
+            height: 150px;
         }
 
         .carousel-item,
@@ -101,7 +101,12 @@
     }
 
     @media screen and (max-width: 600px){
+        .image {
+            text-align: center;
+        }
+        
         .card-image {
+            width: 320px;
             height: 200px;
         }
 
@@ -132,12 +137,56 @@
 
             //Sample blog posts data
             $blogs = array (
-                array("id" => 1,"title" => "LiFi","description" => "LiFi is a Visible Light Communications system transmitting wireless internet communications at very high speeds. The technology makes a LED light bulb emit pulses of light that are undetectable to the human eye and within those emitted pulses, data can travel to and from receivers. Then, the receivers collect information and interpret the transmitted data. This is conceptually similar to decoding Morse code but in a much faster rate – millions times a second. LiFi transmission speeds can go over 100 Gbps, 14 times faster than WiGig, also known as the world’s fastest WiFi.","image" => "img/Bg-Image1.png","publishedBy" => "Author1","keywords" => "LiFi","createdAt" => new DateTime("09-12-2021T15:03:01"),"updatedAt" => new DateTime("09-12-2021T15:03:01")),
-                array("id" => 2,"title" => "OWNii","description" => "OWNii is an acronym for 'Optical Wireless Network Internet Infrastructure.' It is based on the 4th industrial revolutionary, disruptive, LiFi technology. LiFi, meaning 'Light Fidelity' is the brainchild of Harold Haas et al and pureLiFi, Ltd. It expands the spectrum bands for more devices in the IoT era to go online without jamming the ecosystem. It is safer, healthier and with far more advantages than the alternative of small cell towers electromagnetically transmitting within short distances of each other in our communities, that is, the current technology behind wireless communication more commonly known as Wi-Fi, Bluetooth, etc. LiFi technology significantly increases speed, security, and density.","image" => "img/distribution.png","publishedBy" => "Author1","keywords" => "Blockchain,CryptoCurrency,LiFi","createdAt" => new DateTime("09-12-2021T20:15:03"),"updatedAt" => new DateTime("09-12-2021T20:15:03")),
-                array("id" => 3,"title" => "CryptoCurrency","description" => "A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation.","image" => "img/coin-back.png","publishedBy" => "Author1","keywords" => "CryptoCurrency,Blockchain","createdAt" => new DateTime("08-12-2021T09:27:10"),"updatedAt" => new DateTime("08-12-2021T09:27:10")),
-                array("id" => 4,"title" => "Blockchain","description" => "Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.","image" => "img/logo/owniilogo.jpg","publishedBy" => "Author1","keywords" => "Blockchain","createdAt" => new DateTime("07-12-2021T12:05:26"),"updatedAt" => new DateTime("07-12-2021T12:05:26")),
-                array("id" => 5,"title" => "OWNii","description" => "OWNii is an acronym for 'Optical Wireless Network Internet Infrastructure.' It is based on the 4th industrial revolutionary, disruptive, LiFi technology. LiFi, meaning 'Light Fidelity' is the brainchild of Harold Haas et al and pureLiFi, Ltd. It expands the spectrum bands for more devices in the IoT era to go online without jamming the ecosystem. It is safer, healthier and with far more advantages than the alternative of small cell towers electromagnetically transmitting within short distances of each other in our communities, that is, the current technology behind wireless communication more commonly known as Wi-Fi, Bluetooth, etc. LiFi technology significantly increases speed, security, and density.","image" => "img/bg1.jpg","publishedBy" => "Author1","keywords" => "Energy,CryptoCurrency","createdAt" => new DateTime("09-12-2021T13:08:23"),"updatedAt" => new DateTime("09-12-2021T13:08:23"))
-                
+                array(
+                    "id" => 1,
+                    "title" => "Lorem ipsum",
+                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet laoreet diam, sed pretium turpis. Donec aliquam ex id erat ultricies bibendum. Pellentesque pretium lorem ligula, in rhoncus lorem lacinia ut. Vivamus id suscipit ligula. Pellentesque imperdiet lectus tincidunt nisi congue, quis efficitur eros vulputate. Aliquam erat volutpat. Donec eget eleifend erat. Nulla maximus auctor pulvinar. Aliquam iaculis at nunc posuere fermentum. Maecenas diam urna, tristique a tempor eu, cursus sed lectus. Nulla eleifend ut eros gravida consectetur. Suspendisse potenti. Fusce id nisi aliquet, congue tortor vitae, blandit dui. Nullam laoreet arcu ut mattis dictum. Pellentesque id erat erat.Quisque nisi urna, imperdiet eu augue non, interdum volutpat mauris. Pellentesque a urna est. Integer viverra faucibus enim, sed congue quam aliquam vitae. Aliquam porta dui sit amet mauris posuere pretium. Suspendisse eros leo, tempus non malesuada eu, porttitor in elit. Nam luctus, nunc vitae vestibulum pretium, massa elit malesuada nunc, nec congue arcu ligula id enim. Aliquam hendrerit tristique aliquam. Suspendisse a magna sed quam vulputate fermentum. Suspendisse bibendum mattis augue non pulvinar. Praesent mattis efficitur est, id vulputate magna sollicitudin at. Quisque semper in metus at condimentum",
+                    "image" => "img/blog/cryptocurrency2.jpg",
+                    "publishedBy" => "Author1",
+                    "keywords" => "Lorem ipsum",
+                    "createdAt" => new DateTime("09-12-2021T15:03:01"),
+                    "updatedAt" => new DateTime("09-12-2021T15:03:01")
+                ),
+                array(
+                    "id" => 2,
+                    "title" => "Dolor",
+                    "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet laoreet diam, sed pretium turpis. Donec aliquam ex id erat ultricies bibendum. Pellentesque pretium lorem ligula, in rhoncus lorem lacinia ut. Vivamus id suscipit ligula. Pellentesque imperdiet lectus tincidunt nisi congue, quis efficitur eros vulputate. Aliquam erat volutpat. Donec eget eleifend erat. Nulla maximus auctor pulvinar. Aliquam iaculis at nunc posuere fermentum. Maecenas diam urna, tristique a tempor eu, cursus sed lectus. Nulla eleifend ut eros gravida consectetur. Suspendisse potenti. Fusce id nisi aliquet, congue tortor vitae, blandit dui. Nullam laoreet arcu ut mattis dictum. Pellentesque id erat erat.",
+                    "image" => "img/blog/btc-3.jpeg",
+                    "publishedBy" => "Author1",
+                    "keywords" => "Lorem ipsum,Dolor",
+                    "createdAt" => new DateTime("09-12-2021T20:15:03"),
+                    "updatedAt" => new DateTime("09-12-2021T20:15:03")
+                ),
+                array(
+                    "id" => 3,
+                    "title" => "Quisque",
+                    "description" => "Quisque nisi urna, imperdiet eu augue non, interdum volutpat mauris. Pellentesque a urna est. Integer viverra faucibus enim, sed congue quam aliquam vitae. Aliquam porta dui sit amet mauris posuere pretium. Suspendisse eros leo, tempus non malesuada eu, porttitor in elit. Nam luctus, nunc vitae vestibulum pretium, massa elit malesuada nunc, nec congue arcu ligula id enim. Aliquam hendrerit tristique aliquam. Suspendisse a magna sed quam vulputate fermentum. Suspendisse bibendum mattis augue non pulvinar. Praesent mattis efficitur est, id vulputate magna sollicitudin at. Quisque semper in metus at condimentum.",
+                    "image" => "img/blog/bitcoin.jpg",
+                    "publishedBy" => "Author1",
+                    "keywords" => "Quisque,Dolor",
+                    "createdAt" => new DateTime("08-12-2021T09:27:10"),
+                    "updatedAt" => new DateTime("08-12-2021T09:27:10")
+                ),
+                array(
+                    "id" => 4,
+                    "title" => "Maecenas",
+                    "description" => "Maecenas id justo eget tellus lobortis suscipit. Vestibulum nisl augue, molestie at mi rhoncus, elementum euismod dui. Donec consequat bibendum sem, non aliquet lectus dignissim eu. Vivamus venenatis, neque quis faucibus ultrices, magna lorem suscipit justo, vel commodo magna est sed magna. Curabitur tincidunt, elit ac tempor malesuada, velit velit lacinia ligula, in tincidunt lacus nunc vitae lorem. Aenean nec lectus et arcu blandit iaculis. Cras laoreet metus ut orci consectetur hendrerit. Mauris id aliquet dolor, et porta sapien.",
+                    "image" => "img/blog/blockchain5.jpg",
+                    "publishedBy" => "Author1",
+                    "keywords" => "Maecenas,Loreum",
+                    "createdAt" => new DateTime("07-12-2021T12:05:26"),
+                    "updatedAt" => new DateTime("07-12-2021T12:05:26")
+                ),
+                array(
+                    "id" => 5,
+                    "title" => "OWNii",
+                    "description" => "Suspendisse in nibh in eros posuere bibendum eu id dolor. In ultricies neque sed elit fringilla imperdiet. Praesent eget nibh a sem finibus lacinia. Donec erat nibh, rhoncus et ultrices congue, luctus id nulla. Aliquam mollis accumsan bibendum. Nunc eros elit, cursus at pharetra eget, varius aliquam metus. Donec dolor lectus, rhoncus id eros eu, scelerisque porttitor augue. Curabitur quis odio eleifend, euismod lectus eget, laoreet diam.",
+                    "image" => "img/blog/ignore cryp.jpg",
+                    "publishedBy" => "Author1",
+                    "keywords" => "Suspendisse,Dolor,Maecenas",
+                    "createdAt" => new DateTime("09-12-2021T13:08:23"),
+                    "updatedAt" => new DateTime("09-12-2021T13:08:23")
+                )
             );
 
             //logic for displaying recent posts in Carousel
@@ -197,7 +246,7 @@
 
                         <!-- For large screens -->
                         <a href="blogpage.php?id='.$carousel[0]["id"].'" >
-                            <div class="card mb-3 d-none d-md-block">
+                            <div class="card mb-3 d-none d-md-block d-md-flex justify-content-center align-items-center">
                                 <div class="row g-0">
                                     <div class="offset-md-1 col-md-4 img-class">
                                         <img src="'.$carousel[0]["image"].'" class="img-fluid rounded-start p-2" alt="...">
@@ -215,12 +264,14 @@
 
                         <!-- For small Screens -->
                         <a href="blogpage.php?id='.$carousel[0]["id"].'" >
-                            <div class="card d-block d-md-none img-class">
-                                <img src="'.$carousel[0]["image"].'" class="card-img-top p-2" height="280px" alt="...">
+                            <div class="card d-block d-md-none d-flex justify-content-center align-items-center">
+                                <div class="img-class">
+                                    <img src="'.$carousel[0]["image"].'" class="card-img-top p-2" alt="...">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">'.$carousel[0]["title"].'</h5>
                                     <p class="card-text m-0">'.substr($carousel[0]["description"],0,40).'...</p>
-                                    <p class="card-text"><small class="text-muted">'.$carousel[0]["createdAt"]->format('d-m-Y').'</small></p>
+                                    <!--<p class="card-text"><small class="text-muted">'.$carousel[0]["createdAt"]->format('d-m-Y').'</small></p>-->
                                 </div>
                             </div>
                         </a>
@@ -234,7 +285,7 @@
                             <!-- For Large Screens -->
 
                             <a href="blogpage.php?id='.$carousel[$ind]["id"].'" >
-                                <div class="card mb-3 d-none d-md-block">
+                                <div class="card mb-3 d-none d-md-block d-md-flex justify-content-center align-items-center">
                                     <div class="row g-0">
                                         <div class="offset-md-1 col-md-4 img-class">
                                             <img src="'.$carousel[$ind]["image"].'" class="img-fluid rounded-start p-2" alt="...">
@@ -252,12 +303,14 @@
 
                             <!-- For small Screens -->
                             <a href="blogpage.php?id='.$carousel[$ind]["id"].'" >
-                                <div class="card d-block d-md-none img-class">
-                                    <img src="'.$carousel[$ind]["image"].'" class="card-img-top p-2" height="280px" alt="...">
+                                <div class="card d-block d-md-none d-flex justify-content-center align-items-center">
+                                    <div class="img-class">
+                                        <img src="'.$carousel[$ind]["image"].'" class="card-img-top p-2" alt="...">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">'.$carousel[$ind]["title"].'</h5>
                                         <p class="card-text m-0">'.substr($carousel[$ind]["description"],0,40).'...</p>
-                                        <p class="card-text"><small class="text-muted">'.$carousel[$ind]["createdAt"]->format('d-m-Y').'</small></p>
+                                        <!--<p class="card-text"><small class="text-muted">'.$carousel[$ind]["createdAt"]->format('d-m-Y').'</small></p>-->
                                     </div>
                                 </div>
                             </a>
@@ -323,7 +376,9 @@
                             '<div class="col-xs-12 col-md-6 col-lg-4 my-4">
                                 <a href="blogpage.php?id='.$blog["id"].'" >
                                     <div class="card h-100">
-                                        <img src="'.$blog["image"].'" class="card-img-top p-2 img-fluid card-image" alt="...">
+                                        <div class="image">
+                                            <img src="'.$blog["image"].'" class="card-img-top p-2 img-fluid card-image" alt="...">
+                                        </div>
                                         <div class="card-body">
                                             <h5 class="card-title">'.$blog["title"].'</h5>
                                             <p class="card-text">'.substr($blog["description"],0,120).'...</p>
@@ -353,7 +408,9 @@
                                 '<div class="col-xs-12 col-md-6 col-lg-4 my-4">
                                     <a href="blogpage.php?id='.$blog["id"].'" >
                                         <div class="card h-100">
-                                            <img src="'.$blog["image"].'" class="card-img-top p-2 img-fluid card-image" alt="...">
+                                            <div class="image">
+                                                <img src="'.$blog["image"].'" class="card-img-top p-2 img-fluid card-image" alt="...">
+                                            </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">'.$blog["title"].'</h5>
                                                 <p class="card-text">'.substr($blog["description"],0,120).'...</p>

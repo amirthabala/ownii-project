@@ -6,7 +6,7 @@
     padding-bottom: 75px;
   }
 
-  .row {
+  .roadmap .row {
     margin-bottom: 25px;
   }
 
