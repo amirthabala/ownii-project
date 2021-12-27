@@ -10,7 +10,7 @@
         padding-top: 2%;
     }
 
-    .title-section h3 {
+    .title-section h5 {
         color: var(--owniigreen);
         letter-spacing: 2px;
         padding-top: 3%;
@@ -22,12 +22,12 @@
         color: var(--owniigreen);
     }
 
-    .title-section a:hover, .title-section h3:hover{
+    .title-section a:hover, .title-section h5:hover{
         color: #258e25;
     }
 
     .title-section i {
-        font-size: 25px;
+        font-size: 16px;
     }
 
     .sidebar .nav-link {
@@ -137,7 +137,7 @@
     <div class="title-section w-100">
         <a href="blog.php">
             <i class="fa fa-chevron-left me-2"></i>
-            <h3 class="d-inline-block">OWNII BLOG</h3>
+            <h5 class="d-inline-block">OWNII BLOG</h5>
         </a>
     </div>
 

@@ -69,17 +69,17 @@
       <tr>
         <td class="tg-0lax">1</td>
         <td class="tg-0lax">Ownii Coin - White Paper Version 6.0</td>
-        <td class="tg-0laxc"><small>Coming Soon</small></td>
+        <td class="tg-0laxc"><a href="docs/OWNii_whitepaper_6.0_Sep_2021.pdf" target="_blank" download><i class="fa fa-download fa-lg color-primary-4a"></i></a></td>
       </tr>
       <tr>
         <td class="tg-0lax">2</td>
         <td class="tg-0lax">Ownii Coin - White Paper Version 5.0</td>
-        <td class="tg-0laxc"><i class="fa fa-download fa-lg color-primary-4a"></i></td>
+        <td class="tg-0laxc"><a class="disabled"><i class="fa fa-download fa-lg text-secondary"></i></a></td>
       </tr>
       <tr>
         <td class="tg-0lax">3</td>
         <td class="tg-0lax">Ownii Coin - White Paper Version 3.0</td>
-        <td class="tg-0laxc"><a href="docs/ownii-whitepaper-3.pdf" target="_blank"><i class="fa fa-download fa-lg color-primary-4a"></i></a></td>
+        <td class="tg-0laxc"><a href="docs/ownii-whitepaper-3.pdf" target="_blank" download><i class="fa fa-download fa-lg color-primary-4a"></i></a></td>
       </tr>
     </tbody>
   </table>

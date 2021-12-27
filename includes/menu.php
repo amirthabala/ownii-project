@@ -178,6 +178,9 @@
                         <a href="blog.php" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="contactus.php" class="nav-link">Contact</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
