@@ -1,5 +1,9 @@
   
 <style>
+    .about {
+        width: 30vw;
+    }
+
     .submenu, .submenustart {
         position: relative;
     }
@@ -68,6 +72,14 @@
         background-color: #0f7311;
     }
 
+    /*tablets*/
+    @media screen and (max-width:992px){
+        .about {
+            width: 50vw;
+        }
+    }
+
+    /*For mobiles*/
     @media screen and (max-width:767px){
         .submenu:hover > .dropdown-menu {
             position: static;
@@ -76,7 +88,12 @@
         .submenustart:hover > .submenu-item {
             position: static;
         }
+
+        .about {
+            width: 90vw;
+        }
     }
+
 </style>
 <div class="test sticky-top">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark ownigreen">
@@ -93,17 +110,25 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-                        <div class="dropdown-menu dropdown-menu-end">
-                            <a href="about.php" class="dropdown-item">About</a>
-                            <a href="#" class="dropdown-item">Li-Fi</a>
-                            <a href="#" class="dropdown-item">WTE</a>
-                            <a href="#" class="dropdown-item">CGE</a>
-                            <a href="#" class="dropdown-item">Global Greenology</a>
-                            <a href="#" class="dropdown-item">Strategic Initiatives</a>
-                            <a href="whitepaper.php" class="dropdown-item">Whitepaper</a>
-                            <a href="roadmap.php" class="dropdown-item">Roadmap</a>
-                            <a href="index.php#faq-section" class="dropdown-item">FAQ</a>
-                            <a href="#" class="dropdown-item">How It Works</a>
+                        <div class="dropdown-menu dropdown-menu-end about">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="about.php" class="dropdown-item">About</a>
+                                    <a href="#" class="dropdown-item">Li-Fi</a>
+                                    <a href="#" class="dropdown-item">WTE</a>
+                                    <a href="#" class="dropdown-item">CGE</a>
+                                    <a href="#" class="dropdown-item">Global Greenology</a>
+                                    <a href="owniiabout.php#strategic-initiatives" class="dropdown-item">Strategic Initiatives</a>
+                                </div>
+                                <div class="col">
+                                    <a href="owniiabout.php#san-victus" class="dropdown-item">San Victus Pte Ltd</a>
+                                    <a href="owniiabout.php#ownii-global" class="dropdown-item">OWNii Global</a>
+                                    <a href="whitepaper.php" class="dropdown-item">Whitepaper</a>
+                                    <a href="roadmap.php" class="dropdown-item">Roadmap</a>
+                                    <a href="index.php#faq-section" class="dropdown-item">FAQ</a>
+                                    <a href="#" class="dropdown-item">How It Works</a>
+                                </div>
+                            </div>
                             <!-- <div class="dropdown-divider"></div>
                             <a href="#" class="dropdown-item">Test</a> -->
                         </div>
@@ -111,9 +136,9 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Team</a>
                         <div class="dropdown-menu dropdown-menu-end">
-                            <a href="owniiteam.php#ownii-global" class="dropdown-item">OWNii Global</a>
+                            <!-- <a href="" class="dropdown-item">OWNii Global</a> -->
                             <a href="owniiteam.php#ownii-energy" class="dropdown-item">OWNii Energy</a>
-                            <a href="owniiteam.php#san-victus" class="dropdown-item">San Victus Energy</a>
+                            <!-- <a href="owniiteam.php#san-victus" class="dropdown-item">San Victus Energy</a> -->
                         </div>
                     </li>
                     <li class="nav-item dropdown">
