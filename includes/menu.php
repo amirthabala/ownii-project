@@ -111,9 +111,9 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Team</a>
                         <div class="dropdown-menu dropdown-menu-end">
-                            <a href="#" class="dropdown-item">OWNii Global</a>
-                            <a href="owniienergy.php" class="dropdown-item">OWNii Energy</a>
-                            <a href="#" class="dropdown-item">San Victus Energy</a>
+                            <a href="owniiteam.php#ownii-global" class="dropdown-item">OWNii Global</a>
+                            <a href="owniiteam.php#ownii-energy" class="dropdown-item">OWNii Energy</a>
+                            <a href="owniiteam.php#san-victus" class="dropdown-item">San Victus Energy</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
