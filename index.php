@@ -73,6 +73,15 @@
     color: #005400
   }
 
+  .list li {
+    padding-left: 1em;
+    text-align: justify;
+  }
+
+  .two-column-1 .row {
+    margin-bottom: 5%;
+  }
+
 </style>
 
 <!-- Start jumbotron -->
@@ -129,6 +138,43 @@
           <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe> -->
           <iframe src="https://www.youtube.com/embed/BNsL7xb972Y" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="d-flex justify-content-center align-items-center">
+        <img src="img/cryptocurrency.jpg" alt="content" width=400 height=400 style="object-fit:contain">
+      </div>
+    </div>
+    <div class="col-md-6 about-col1 d-flex align-items-center">
+      <div>
+        <h2>Descriptive Features of OWNii</h2>
+        <p style="text-align:justify">OWNii means Optical Wireless Network Internet Infrastructure. It is a communications internet infrastructure network that is based on Optical Wireless Communications (OWC) technology instead of radiowave freqeuency based technologies such as Wi-Fi. This focuses on utilizing visible light to provide an inexpensive and efficient alternative medium of wireless communication. Currently, OWC is commonly used in infrared remote controls of air conditioners and televisions. OWC technology will significantly optimize the modern workplace. Video conferences, file sharing, intranet infrastructure can be scaled up with the appropriate data and voice transfer technologies and infrastructure and propagate over the internet.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom:8%">
+    <div class="col-md-6 about-col1 d-flex align-items-center">
+      <div>
+        <h2>Descriptive Features of OWNii Coin Token</h2>
+        <br>
+        <p>The OWNii Coins are crypto-currency tokens that have the following main features :</p>
+        <br>
+        <ol type="a" class="list">
+          <li>They are fungible tokens. This means that they can be exchanged, and each token is not unique.</li>
+          <li>The value of each token currently expressed in US$ fiat currency equivalent shall be captured by the internal Smart Contract per transaction, and upon the successful verification and confirmation by the DANP, shall therefore adjust the value of the OWNii Coin token.</li>
+          <li>There are no life-span limitations or expiry of use attached to any token.</li>
+          <li>They can be readily traded or exchanged under the P2P Crypto-currency Exchange Platform, and on crypto-currency exchanges (at a later date upon the completion of the PPO and Subsequent Closings).</li>
+          <li>They are eligible for Specific Measures devised by the Company</li>
+        </ol>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="d-flex justify-content-center align-items-center">
+        <img src="img/blog/cryptocurrency2.jpg" alt="content" width=400 height=400 style="object-fit:contain">
       </div>
     </div>
   </div>

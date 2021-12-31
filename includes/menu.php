@@ -1,7 +1,7 @@
   
 <style>
     .about {
-        width: 30vw;
+        width: 45vw;
     }
 
     .submenu, .submenustart {
@@ -75,7 +75,7 @@
     /*tablets*/
     @media screen and (max-width:992px){
         .about {
-            width: 50vw;
+            width: 70vw;
         }
     }
 
@@ -114,16 +114,19 @@
                             <div class="row">
                                 <div class="col">
                                     <a href="about.php" class="dropdown-item">About</a>
-                                    <a href="#" class="dropdown-item">Li-Fi</a>
-                                    <a href="#" class="dropdown-item">WTE</a>
-                                    <a href="#" class="dropdown-item">CGE</a>
-                                    <a href="#" class="dropdown-item">Global Greenology</a>
-                                    <a href="owniiabout.php#strategic-initiatives" class="dropdown-item">Strategic Initiatives</a>
+                                    <a href="owniiabout.php#li-fi" class="dropdown-item">Li-Fi</a>
+                                    <a href="owniiabout.php#wte" class="dropdown-item">WTE</a>
+                                    <a href="owniiabout.php#cge" class="dropdown-item">CGE</a>
+                                    <a href="owniiabout.php#global-greenology" class="dropdown-item">Global Greenology</a>
                                 </div>
                                 <div class="col">
                                     <a href="owniiabout.php#san-victus" class="dropdown-item">San Victus Pte Ltd</a>
                                     <a href="owniiabout.php#ownii-global" class="dropdown-item">OWNii Global</a>
+                                    <a href="owniiabout.php#strategic-initiatives" class="dropdown-item">Strategic Initiatives</a>
                                     <a href="whitepaper.php" class="dropdown-item">Whitepaper</a>
+                                    <a href="owniiabout.php#ownii-coin-token" class="dropdown-item">OWNii Coin Token</a>
+                                </div>
+                                <div class="col">
                                     <a href="roadmap.php" class="dropdown-item">Roadmap</a>
                                     <a href="index.php#faq-section" class="dropdown-item">FAQ</a>
                                     <a href="#" class="dropdown-item">How It Works</a>
@@ -136,25 +139,33 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Team</a>
                         <div class="dropdown-menu dropdown-menu-end">
-                            <!-- <a href="" class="dropdown-item">OWNii Global</a> -->
+                            <a href="" class="dropdown-item">OWNii Global</a>
                             <a href="owniiteam.php#ownii-energy" class="dropdown-item">OWNii Energy</a>
-                            <!-- <a href="owniiteam.php#san-victus" class="dropdown-item">San Victus Energy</a> -->
+                            <a href="owniiteam.php#san-victus" class="dropdown-item">San Victus Energy</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Token</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Ownii</a>
                         <div class="dropdown-menu dropdown-menu-end">
-                            <a href="#" class="dropdown-item">Buy Token</a>
-                            <a href="#" class="dropdown-item">Token Sales</a>
-                            <a href="#" class="dropdown-item">Ownii Wallet</a>
                             <div class="submenu dropend py-0">
                                 <a class="dropdown-toggle dropdown-item" href="#" data-bs-toggle="dropdown">
-                                    Ownii Token
+                                    Ownii System
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">Description</a>
-                                    <a href="#" class="dropdown-item">Volume</a>
-                                    <a href="#" class="dropdown-item">Pricing</a>
+                                    <a href="owniisystem.php#ownii" class="dropdown-item">Ownii</a>
+                                    <a href="owniisystem.php#ownii-system" class="dropdown-item">Ownii System Description</a>
+                                    <a href="owniisystem.php#ownii-ecosystem" class="dropdown-item">Ownii Ecosystem Description</a>
+                                </ul>
+                            </div>
+                            <div class="submenu dropend py-0">
+                                <a class="dropdown-toggle dropdown-item" href="#" data-bs-toggle="dropdown">
+                                    Ownii Coin Token
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <a href="owniicointoken.php#description" class="dropdown-item">Description</a>
+                                    <a href="owniicointoken.php#volume" class="dropdown-item">Volume</a>
+                                    <a href="owniicointoken.php#pricing" class="dropdown-item">Pricing</a>
+                                    <a href="owniicointoken.php#E-wallet" class="dropdown-item">E-wallet</a>
                                 </ul>
                             </div>
                         </div>
