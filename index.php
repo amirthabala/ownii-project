@@ -143,7 +143,7 @@
   </div>
 
   <div class="row">
-    <div class="col-lg-6">
+    <div class="col-md-6">
       <div class="d-flex justify-content-center align-items-center">
         <img src="img/cryptocurrency.jpg" alt="content" width=400 height=400 style="object-fit:contain">
       </div>
@@ -172,7 +172,7 @@
         </ol>
       </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-md-6">
       <div class="d-flex justify-content-center align-items-center">
         <img src="img/blog/cryptocurrency2.jpg" alt="content" width=400 height=400 style="object-fit:contain">
       </div>
