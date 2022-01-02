@@ -143,9 +143,9 @@
   </div>
 
   <div class="row">
-    <div class="col-md-6">
-      <div class="d-flex justify-content-center align-items-center">
-        <img src="img/cryptocurrency.jpg" alt="content" width=400 height=400 style="object-fit:contain">
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+      <div>
+        <img class="img-fluid" src="img/cryptocurrency.jpg" alt="content" width=400 height=400 style="object-fit:contain">
       </div>
     </div>
     <div class="col-md-6 about-col1 d-flex align-items-center">
@@ -172,9 +172,9 @@
         </ol>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="d-flex justify-content-center align-items-center">
-        <img src="img/blog/cryptocurrency2.jpg" alt="content" width=400 height=400 style="object-fit:contain">
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+      <div>
+        <img class="img-fluid" src="img/blog/cryptocurrency2.jpg" alt="content" width=400 height=400 style="object-fit:contain">
       </div>
     </div>
   </div>
