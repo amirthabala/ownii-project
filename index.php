@@ -125,7 +125,7 @@
 <!--- Two Column Section -->
 <div class="container-fluid two-column-1">
   <div class="row">
-    <div class="col-md-6 about-col1">
+    <div class="col-lg-6 about-col1">
       <h2>World of Ownii</h2>
       <p>Ownii is an acronym for "Optical Wireless Network Internet Infrastructure." </p>
       <p>Ownii is based on the 4th industrial revolutionary, disruptive, LiFi technology. LiFi, meaning "Light Fidelity" is the brainchild of Harold Haas et al and pureLiFi, Ltd. It expands the spectrum bands for more devices in the IoT era to go online without jamming the ecosystem.</p>
@@ -143,26 +143,24 @@
   </div>
 
   <div class="row">
-    <div class="col-md-6 d-flex justify-content-center align-items-center">
-      <div>
-        <img class="img-fluid" src="img/cryptocurrency.jpg" alt="content" width=400 height=400 style="object-fit:contain">
+    <div class="col-lg-6 order-2 order-lg-1 d-flex justify-content-center mb-4">
+      <div class="d-flex justify-content-center">
+        <img class="img-fluid" src="img/cryptocurrency.jpg" alt="content" width="60%" style="object-fit:contain">
       </div>
     </div>
-    <div class="col-md-6 about-col1 d-flex align-items-center">
+    <div class="col-lg-6 order-1 order-lg-2 about-col1 d-flex align-items-center">
       <div>
         <h2>Descriptive Features of OWNii</h2>
-        <p style="text-align:justify">OWNii means Optical Wireless Network Internet Infrastructure. It is a communications internet infrastructure network that is based on Optical Wireless Communications (OWC) technology instead of radiowave freqeuency based technologies such as Wi-Fi. This focuses on utilizing visible light to provide an inexpensive and efficient alternative medium of wireless communication. Currently, OWC is commonly used in infrared remote controls of air conditioners and televisions. OWC technology will significantly optimize the modern workplace. Video conferences, file sharing, intranet infrastructure can be scaled up with the appropriate data and voice transfer technologies and infrastructure and propagate over the internet.</p>
+        <p class="mt-3" style="text-align:justify">OWNii means Optical Wireless Network Internet Infrastructure. It is a communications internet infrastructure network that is based on Optical Wireless Communications (OWC) technology instead of radiowave freqeuency based technologies such as Wi-Fi. This focuses on utilizing visible light to provide an inexpensive and efficient alternative medium of wireless communication. Currently, OWC is commonly used in infrared remote controls of air conditioners and televisions. OWC technology will significantly optimize the modern workplace. Video conferences, file sharing, intranet infrastructure can be scaled up with the appropriate data and voice transfer technologies and infrastructure and propagate over the internet.</p>
       </div>
     </div>
   </div>
 
   <div class="row" style="margin-bottom:8%">
-    <div class="col-md-6 about-col1 d-flex align-items-center">
+    <div class="col-lg-6 about-col1 d-flex align-items-center">
       <div>
         <h2>Descriptive Features of OWNii Coin Token</h2>
-        <br>
-        <p>The OWNii Coins are crypto-currency tokens that have the following main features :</p>
-        <br>
+        <p class="mt-3">The OWNii Coins are crypto-currency tokens that have the following main features :</p>
         <ol type="a" class="list">
           <li>They are fungible tokens. This means that they can be exchanged, and each token is not unique.</li>
           <li>The value of each token currently expressed in US$ fiat currency equivalent shall be captured by the internal Smart Contract per transaction, and upon the successful verification and confirmation by the DANP, shall therefore adjust the value of the OWNii Coin token.</li>
@@ -172,9 +170,9 @@
         </ol>
       </div>
     </div>
-    <div class="col-md-6 d-flex justify-content-center align-items-center">
-      <div>
-        <img class="img-fluid" src="img/blog/cryptocurrency2.jpg" alt="content" width=400 height=400 style="object-fit:contain">
+    <div class="col-lg-6 d-flex justify-content-center">
+      <div class="d-flex justify-content-center">
+        <img class="img-fluid" src="img/blog/cryptocurrency2.jpg" width="80%" alt="content" style="object-fit:contain">
       </div>
     </div>
   </div>

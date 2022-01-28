@@ -2,8 +2,16 @@
 
 <style>
 
-    .about-section .container h2 {
-        padding-top: 0%;
+    #about-section .container {
+        padding-top: 5%;
+    }
+
+    #about-section .container span {
+        background-color: #258e25;
+        color: white;
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: 2px;
     }
 
     .energy-content {
@@ -19,11 +27,12 @@
 </style>
 
 <!-- description section -->
-<div id="description" class="mb-4"></div>
+<div class="mb-3" id="description"></div>
 <div>
     <section id="about-section">
-    <div class="container">
-        <h2>Description</h2>
+    <div class="container text-center">
+        <span class="px-3 pb-1 rounded-2 d-inline-flex align-items-center justify-content-center">Description</span>
+        
     </div>
     </section>
 
@@ -37,11 +46,11 @@
 </div>
 
 <!-- Volume section -->
-<div id="volume" class="mb-5"></div>
+<div class="mb-3" id="volume" ></div>
 <div>
     <section id="about-section">
-    <div class="container">
-        <h2>Volume</h2>
+    <div class="container text-center">
+        <span class="px-3 pb-1 rounded-2 d-inline-flex align-items-center justify-content-center">Volume</span>
     </div>
     </section>
 
@@ -55,11 +64,11 @@
 </div>
 
 <!-- Pricing section -->
-<div id="pricing" class="mb-5"></div>
+<div class="mb-3" id="pricing"></div>
 <div>
     <section id="about-section">
-    <div class="container">
-        <h2>Pricing</h2>
+    <div class="container text-center">
+        <span class="px-3 pb-1 rounded-2 d-inline-flex align-items-center justify-content-center">Pricing</span>
     </div>
     </section>
 
@@ -73,11 +82,11 @@
 </div>
 
 <!-- E-wallet section -->
-<div id="E-wallet" class="mb-5"></div>
+<div id="E-wallet"></div>
 <div style="padding-bottom:7%">
     <section id="about-section">
-    <div class="container">
-        <h2>E-wallet</h2>
+    <div class="container text-center">
+        <span class="px-3 pb-1 rounded-2 d-inline-flex align-items-center justify-content-center">E-wallet</span>
     </div>
     </section>
 
